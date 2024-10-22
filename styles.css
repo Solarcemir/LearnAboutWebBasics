@@ -1,83 +1,95 @@
-body
-{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Courier New', Courier, monospace;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #ffffff; 
 }
 
-header
-{
-    background-color: #f52929;
+header {
+    background-color: #d32f2f;
     color: white;
     text-align: center;
     padding: 30px;
     filter: drop-shadow(0 0 0.75rem rgb(25, 19, 185));
 }
 
-section.about
-{
+section.about {
     padding: 15px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #667b9d;
+    background-color: #303f9f;
+    color: white;
     filter: drop-shadow(0 0 0.75rem black);
     display: flex;
 }
 
-section.about p
-{
-    font-weight: bold;
-}
-
-div.aboutme
-{
+div.aboutme {
     margin: 0 auto;
     width: 50%;
     padding: 15px;
-    background-color: #f0f0f0;
+    background-color: #424242;
+    color: #ffffff;
     border-radius: 20px;
 }
 
-.mypicture
-{
+.mypicture {
     border: solid #ffffff;
-    padding: 15px;
-    border-radius: 20px;
+    padding: 2px;
+    border-radius: 10px;
     margin-right: 100px;
 }
 
-h2.projects
-{
+h2.projects {
     padding-top: 15px;
     padding-left: 15px;
     font-size: 32px;
+    color: #d32f2f;
 }
 
-section.projects
-{
+section.projects {
     padding: 15px;
     padding-top: 0px;
     display: flex;
 }
 
-section.projects div
-{
-    border: solid;
+section.projects div {
+    background-color: #424242; 
+    border: solid #bbbbbb; 
     border-radius: 5px;
     padding: 15px;
     margin-right: 15px;
+    color: #ffffff; 
 }
 
-footer.findme
-{
+footer.findme {
     text-align: center;
     padding: 25px;
+    background-color: #1a1a1a;
+    color: white;
 }
 
-button
-{
+button {
     color: white;
+    font-weight: bold;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    background-color: #34a853;
+    background-color: #388e3c;
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1a2989;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra ajustada */
+}
+
+
+.projectext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dede1c;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: #11f74a;
 }
